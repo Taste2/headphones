@@ -1,0 +1,137 @@
+/*responsive to screens*/
+@media (max-width: 480px) {
+    body.works_on_smartphone {
+        display: block;
+    }
+    body.works_on_smartphone main {
+        display: block;
+    }
+    header .right {
+        float: none;
+    }
+}
+
+html
+{
+    font-family: sans-serif;
+}
+body
+{
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+    overflow-x: auto;
+}
+
+/* header*/
+header
+{
+    background-image: url(assets/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fit-content;
+    height: 600px;
+}
+
+header .header-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px;
+    height: inherit;
+}
+
+.header-logo-and-links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+}
+
+.header-links
+{
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    gap: 25px;
+    flex-wrap: wrap;
+    color: white;
+    
+}
+a:hover, a:active 
+{
+    color: #FF6565;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-piece
+{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    color: white;
+}
+
+.hero-piece-block 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1 
+{
+    background-color: rgb(255, 101, 101);
+}
+
+button:hover, button:active {
+    opacity: 0.9;
+}
+
+.hero-piece-title-block
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-piece-button-block
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.button1
+{
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.button1-text
+{
+    width: 50%;
+}
+
+.hero-piece-title-block h1{
+    margin-bottom: 0%;
+}
+.hero-piece-title-block p{
+    margin-top: 0%;
+}
